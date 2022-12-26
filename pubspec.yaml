@@ -1,0 +1,50 @@
+name: ibraheem_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_svg:
+  lottie:
+  flutter_carousel_widget:
+  flutter_screenutil: 
+  image_card:
+  flutter_launcher_icons:
+
+flutter_icons:
+  image_path_android: "assets/logo.png"
+  image_path_ios: "assets/logo.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  
+
+
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+  uses-material-design: true
+
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/ArbFONTS-Almarai-Regular.ttf
+          weight: 700
+        - asset: assets/fonts/ArbFONTS-Almarai-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/ArbFONTS-Almarai-Light.ttf
+          weight: 500
